@@ -1,3 +1,41 @@
-.header__logo img{
-    border-radius: 50px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    height: 100%;
+    font-size: 18px;
+    background: #efefef;
+    line-height: 1.6;
+}
+.wrapper{
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.header-inner{
+    padding: 24px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+.menu-item:not(:last-child){
+    margin-right: 15px;
 }
