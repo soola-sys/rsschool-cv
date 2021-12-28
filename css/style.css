@@ -39,3 +39,8 @@ body {
 .menu-item:not(:last-child){
     margin-right: 15px;
 }
+.section-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
