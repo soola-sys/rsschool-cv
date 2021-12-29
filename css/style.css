@@ -6,6 +6,10 @@
 a {
     text-decoration: none;
 }
+
+li{
+    list-style-type: none;
+}
 body {
     font-family: 'Nunito Sans', sans-serif;
     height: 100%;
@@ -42,4 +46,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.section-home-social{
+    display: flex;
+}
+.social-menu-list{
+    padding: 0;
+    display: flex;
+}
+.social-menu-item:not(:last-child){
+    margin-right: 15px;
+}
+
+a svg{
+    transition: all 0.3s linear;
+}
+a:hover svg{
+    transform: scale(1.5);
 }
