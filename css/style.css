@@ -10,6 +10,9 @@ a {
 li{
     list-style-type: none;
 }
+ul{
+    padding: 0;
+}
 body {
     font-family: 'Nunito Sans', sans-serif;
     height: 100%;
@@ -38,10 +41,24 @@ body {
 .menu-list{
     display: flex;
     list-style: none;
+    font-weight: 600;
 }
+.menu-link{
+    cursor: pointer;
+    color:rgb(33, 37, 41);
+}
+.menu-link:hover{
+    color:#aaa;
+  }
 .menu-item:not(:last-child){
-    margin-right: 15px;
+    margin-right: 20px;
 }
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
 .section-home{
     display: flex;
     align-items: center;
@@ -63,4 +80,31 @@ a svg{
 }
 a:hover svg{
     transform: scale(1.5);
+}
+/*Start Section Summary*/
+.section-about{
+    display: flex;
+    justify-content: space-around;
+}
+.section-about-text{
+    max-width: 600px;
+}
+.section-about-image img{
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+
+}
+.section-about-image{
+    height: 250px;
+    box-shadow: 7px 7px 5px #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.section-about-image img:hover{
+    transform: scale(1.5);
+}
+.contact-link{
+    font-weight: 600;
+    color:#212529;
+    margin: 0 0 0 10px;
 }
