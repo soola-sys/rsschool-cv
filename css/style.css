@@ -10,12 +10,11 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     height: 100%;
     font-size: 18px;
-    background: #efefef;
+    background: white;
     line-height: 1.6;
 }
 .wrapper{
     min-height: 100vh;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
