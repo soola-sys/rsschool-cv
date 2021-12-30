@@ -123,7 +123,7 @@ a:hover svg {
 .circle-checked {
   color:#c31432;
 }
-.section-skills {
+.section-skills-inner {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
