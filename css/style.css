@@ -120,6 +120,9 @@ a:hover svg {
 .star-checked {
   color: orange;
 }
+.circle-checked {
+  color:#c31432;
+}
 .section-skills {
   display: flex;
   justify-content: space-between;
@@ -128,6 +131,12 @@ a:hover svg {
 .tech-skills-item {
   display: flex;
   justify-content: space-between;
+}
+.tech-skills-title{
+  font-weight: 700;
+}
+.languages-title{
+  font-weight: 700;
 }
 .section-skills-title{
   text-align: center;
@@ -175,16 +184,9 @@ a:hover svg {
   width: 70%;
   background-color: #5d1e86;
 }
-.language-name{
-  margin-right: 20px;
-}
-.languages-list li{
-  font-weight: 600;
-  list-style: circle;
- 
-}
-.languages-list{
-  padding: 0 0 0 15px;
+.language-item{
+  display: flex;
+  justify-content: space-between;
 }
 /*End Section Skills*/
 /*Start Section Code*/
