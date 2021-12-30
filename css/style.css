@@ -123,7 +123,7 @@ a:hover svg {
   flex-direction: row;
 }
 .section-skills-title {
-  text-align: left;
+  text-align: center;
 }
 .tech-skills-item {
   display: flex;
@@ -135,6 +135,9 @@ a:hover svg {
 .section-tech-skills {
   width: 50%;
   margin-right: 30px;
+}
+.section-tech-skills p{
+  font-size: 24px;
 }
 .web-skills {
   width: 50%;
@@ -168,4 +171,26 @@ a:hover svg {
 .git {
   width: 70%;
   background-color: #5d1e86;
+}
+.language-name{
+  margin-right: 20px;
+}
+.languages-list li{
+  font-weight: 600;
+  list-style: circle;
+ 
+}
+.languages-list{
+  padding: 0 0 0 15px;
+}
+.section-code-title{
+  text-align: center;
+}
+.section-code-pre{
+  background: transparent;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  justify-content: center;
 }
