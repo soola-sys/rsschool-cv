@@ -35,6 +35,9 @@ body {
   max-width: 1360px;
   margin: 0 auto;
 }
+.section h2{
+  text-align: center;
+}
 .header-inner {
   padding: 24px 0 0 0;
   display: flex;
@@ -122,12 +125,12 @@ a:hover svg {
   justify-content: space-between;
   flex-direction: row;
 }
-.section-skills-title {
-  text-align: center;
-}
 .tech-skills-item {
   display: flex;
   justify-content: space-between;
+}
+.section-skills-title{
+  text-align: center;
 }
 .tech-skills-item p {
   margin: 0 15px 0 0;
@@ -183,9 +186,8 @@ a:hover svg {
 .languages-list{
   padding: 0 0 0 15px;
 }
-.section-code-title{
-  text-align: center;
-}
+/*End Section Skills*/
+/*Start Section Code*/
 .section-code-pre{
   background: transparent;
   display: flex;
@@ -194,3 +196,39 @@ a:hover svg {
   font-size: 24px;
   justify-content: center;
 }
+/*End Section Code*/
+/*Start Section Education History*/
+.section-education-card{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.education-card-item{
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.education-item{
+  list-style-type: circle;
+}
+.education-card-list{
+  padding: 0 25px;
+}
+.education-card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #E8E8E8
+}
+.header-card-text p{
+  color:#6c757d;
+  font-size: 0.8em;
+}
+.section-education-title{
+  margin: 0 0 25px 0;
+}
+/*End Section Education History*/
