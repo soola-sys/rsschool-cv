@@ -1,3 +1,287 @@
-.header__logo img{
-    border-radius: 50px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+  height: 100%;
+  font-size: 18px;
+  background: white;
+  line-height: 1.6;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  width: 100%;
+  padding: 0 15px;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.section h2{
+  text-align: center;
+}
+.header-inner {
+  padding: 24px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-list {
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+}
+.menu-link {
+  cursor: pointer;
+  color: rgb(33, 37, 41);
+}
+.menu-link:hover {
+  color: #aaa;
+}
+.menu-item:not(:last-child) {
+  margin-right: 20px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+
+.section-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-home-social {
+  display: flex;
+}
+.social-menu-list {
+  padding: 0;
+  display: flex;
+}
+.social-menu-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+a svg {
+  transition: all 0.3s linear;
+}
+a:hover svg {
+  transform: scale(1.5);
+}
+/*Start Section Summary*/
+.section-about {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 25px 0;
+}
+.section-about-text {
+  max-width: 600px;
+}
+.section-about-image img {
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+}
+.section-about-image {
+  height: 250px;
+  box-shadow: 7px 7px 5px #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.section-about-image img:hover {
+  transform: scale(1.5);
+}
+.contact-link {
+  font-weight: 600;
+  color: #212529;
+  margin: 0 0 0 10px;
+}
+/*End Section Summary*/
+
+/*Start Section Skills*/
+.star-checked {
+  color: orange;
+}
+.circle-checked {
+  color:#c31432;
+}
+.section-skills-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.tech-skills-item {
+  display: flex;
+  justify-content: space-between;
+}
+.tech-skills-title{
+  font-weight: 700;
+}
+.languages-title{
+  font-weight: 700;
+}
+.section-skills-title{
+  text-align: center;
+}
+.tech-skills-item p {
+  margin: 0 15px 0 0;
+}
+.section-tech-skills {
+  width: 50%;
+  margin-right: 30px;
+}
+.section-tech-skills p{
+  font-size: 24px;
+}
+.web-skills {
+  width: 50%;
+}
+.skills {
+  text-align: right;
+  color: white;
+}
+.web-skills-container div {
+  border-radius: 20px;
+  margin: 0 0 5px 0;
+}
+.web-skills-container p{
+    margin: 0;
+}
+.web-skills-container span{
+    padding: 0 10px 0 0;
+}
+.html-skill {
+  width: 80%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 75%;
+  background-color: #91aa04;
+}
+.js {
+  width: 65%;
+  background-color: #186d94;
+}
+.git {
+  width: 70%;
+  background-color: #5d1e86;
+}
+.language-item{
+  display: flex;
+  justify-content: space-between;
+}
+/*End Section Skills*/
+/*Start Section Code*/
+.section-education{
+  margin: 0 0 30px 0;
+}
+.section-code-pre{
+  background: transparent;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
+}
+/*End Section Code*/
+/*Start Section Education History*/
+.section-education-card{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.education-card-item{
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.education-item{
+  list-style-type: circle;
+}
+.education-card-list{
+  padding: 5px 25px;
+}
+.education-card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: 	#F0F0F0;
+}
+.header-card-text p{
+  color:#6c757d;
+  font-size: 0.8em;
+}
+.section-education-title{
+  margin: 0 0 25px 0;
+}
+/*End Section Education History*/
+/*Start Section Projects*/
+.section-projects-title{
+  margin: 25px 0 25px 0;
+}
+.section-projects{
+  padding: 0 0 80px 0;
+}
+.section-projects-card{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px 0;
+}
+.projects-card-item{
+  max-width: 390px;
+  display: flex;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  flex-direction: column;
+  transition: all 0.3s linear;
+  align-items: center;
+  background-color:	#F0F0F0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.projects-card-item:hover{
+  transform: scale(1.1);
+}
+.project-card-image img{
+  width: 100%;
+}
+.card-desc-title{
+  padding: 15px;
+}
+
+/*End Section Projects*/
+/*Start Section Footer*/
+.footer-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer{
+  background-color:	#F0F0F0;
+}
+.footer-title p{
+font-size: 24px;
+}
+/*End Section Footer*/
