@@ -1,6 +1,6 @@
 ## Sultan Agdarbekov
 
-_Computer Science student_
+_Senior Computer Science student_
 
 ### Contacts
 
@@ -40,17 +40,29 @@ _(September 2021 - November 2021)_
 6. Learned how to use best practices
 
 **Code Example**  
-Task which converts boolean to string
+Write a function that takes a string and outputs a strings of 1's and 0's where vowels become 1's and non-vowels become 0's.
 
+All non-vowels including non alpha characters (spaces,commas etc.) should be included
 ```
-function booleanToString(b){
- let y = b.toString();
-  return y;
-}
+function vowelOne(s){
+    let str = []
+    let vowelsArr = ['a' , 'e' , 'i' , 'o' , 'u', 'A', 'E','I' ,'O','U']
+  let arrFromString = Array.from(s)
+   for (item of arrFromString){
+     if(vowelsArr.includes(item)){
+       str.push(1)
+     }
+     else {
+       str.push(0)
+     }
+     
+   }
+  return str.join('')
+  }
 ```
 
 **Courses**
 
 Frontend development by [Kolesa Group](https://job.kolesa.kz/) company
 
-![Certificate](assets/kolesa.jpg)
+![Certificate](/assets/kolesa.jpg)
