@@ -16,10 +16,10 @@ I am proactive , motivated to constantly develop personal skills and grow profes
 
 ### About me
 
-![Technical Skills](/assets/pc.png) **Technical Skills:** Java , Python , C++ , MySQL , LATEX  
-![Languages](/assets/language.png) **Languages:** Fluent in Russian , Kazakh Native , English Upper Intermediate  
-![Interest](/assets/basketball.png) **Interest:** PC - Hardware , IT Specialist , Basketball  
-![Web Programming](/assets/code.png) **Web Programming:** HTML / CSS (SCSS) / Javascript , VueJs , Jest , GIT , ReactJs - Basic , Tilda , LP motor
+![Technical Skills](./assets/img/pc.png) **Technical Skills:** Java , Python , C++ , MySQL , LATEX  
+![Languages](./assets/img/language.png) **Languages:** Fluent in Russian , Kazakh Native , English Upper Intermediate  
+![Interest](./assets/img/basketball.png) **Interest:** PC - Hardware , IT Specialist , Basketball  
+![Web Programming](./assets/img/code.png) **Web Programming:** HTML / CSS (SCSS) / Javascript , VueJs , Jest , GIT , ReactJs - Basic , Tilda , LP motor
 ### Education History
 
 **International Information Technology University**  
@@ -65,4 +65,4 @@ function vowelOne(s){
 
 Frontend development by [Kolesa Group](https://job.kolesa.kz/) company
 
-![Certificate](/assets/kolesa.jpg)
+![Certificate](./assets/img/kolesa.jpg)
