@@ -60,3 +60,9 @@ function vowelOne(s){
   return str.join('')
   }
 ```
+
+**Courses**
+
+Frontend development by [Kolesa Group](https://job.kolesa.kz/) company
+
+![Certificate](./assets/img/kolesa.jpg)
